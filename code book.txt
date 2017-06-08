@@ -1,0 +1,218 @@
+Tidy Data Set - Code Book
+
+subject
+	the subject who performed the activity for each window sample. 
+	Its range is from 1 to 30. 
+
+activityName
+	1 WALKING
+
+	2 WALKING_UPSTAIRS
+	
+3 WALKING_DOWNSTAIRS
+	
+4 SITTING
+
+	5 STANDING
+	
+6 LAYING
+
+
+timeBodyAcceleration-mean()-X
+	Time body acceleration signal - Mean value - X direction
+
+timeBodyAcceleration-mean()-Y
+	Time body acceleration signal - Mean value - Y direction
+
+timeBodyAcceleration-mean()-Z
+	Time body acceleration signal - Mean value - Z direction
+
+timeBodyAcceleration-std()-X
+	Time body acceleration signal - Standard deviation - X direction
+
+timeBodyAcceleration-std()-Y
+	Time body acceleration signal - Standard deviation - Y direction
+
+timeBodyAcceleration-std()-Z
+	Time body acceleration signal - Standard deviation - Z direction
+
+timeGravityAcceleration-mean()-X
+	Time gravity acceleration signal - Mean value - X direction
+
+timeGravityAcceleration-mean()-Y
+	Time gravity acceleration signal - Mean value - Y direction
+
+timeGravityAcceleration-mean()-Z
+	Time gravity acceleration signal - Mean value - Z direction
+
+timeGravityAcceleration-std()-X
+	Time gravity acceleration signal - Standard deviation - X direction
+
+timeGravityAcceleration-std()-Y
+	Time gravity acceleration signal - Standard deviation - Y direction
+
+timeGravityAcceleration-std()-Z
+	Time gravity acceleration signal - Standard deviation - Z direction
+
+timeBodyAccelerationJerk-mean()-X
+	the body linear acceleration were derived in time to obtain Jerk signals  - Mean value - X direction
+
+timeBodyAccelerationJerk-mean()-Y
+	the body linear acceleration were derived in time to obtain Jerk signals  - Mean value - Y direction
+
+timeBodyAccelerationJerk-mean()-Z
+	the body linear acceleration were derived in time to obtain Jerk signals  - Mean value - Z direction
+
+timeBodyAccelerationJerk-std()-X
+	the body linear acceleration were derived in time to obtain Jerk signals - Standard deviation - X direction
+
+timeBodyAccelerationJerk-std()-Y
+	the body linear acceleration were derived in time to obtain Jerk signals - Standard deviation - Y direction
+
+timeBodyAccelerationJerk-std()-Z
+	the body linear acceleration were derived in time to obtain Jerk signals - Standard deviation - Z direction
+
+timeBodyGyroscope-mean()-X
+	Time body Gyroscope  - Mean value - X direction
+
+timeBodyGyroscope-mean()-Y
+	Time body Gyroscope  - Mean value - Y direction
+
+timeBodyGyroscope-mean()-Z
+	Time body Gyroscope  - Mean value - Z direction
+
+timeBodyGyroscope-std()-X
+	Time body Gyroscope - Standard deviation - X direction
+
+timeBodyGyroscope-std()-Y
+	Time body Gyroscope - Standard deviation - Y direction
+
+timeBodyGyroscope-std()-Z
+	Time body Gyroscope - Standard deviation - Z direction
+
+timeBodyGyroscopeJerk-mean()-X
+	the body angular velocity were derived in time to obtain Jerk signals  - Mean value - X direction
+
+timeBodyGyroscopeJerk-mean()-Y
+	the body angular velocity were derived in time to obtain Jerk signals  - Mean value - Y direction
+
+timeBodyGyroscopeJerk-mean()-Z
+	the body angular velocity were derived in time to obtain Jerk signals  - Mean value - Z direction
+
+timeBodyGyroscopeJerk-std()-X
+	the body angular velocity were derived in time to obtain Jerk signals - Standard deviation - X direction
+
+timeBodyGyroscopeJerk-std()-Y
+	the body angular velocity were derived in time to obtain Jerk signals - Standard deviation - Y direction
+
+timeBodyGyroscopeJerk-std()-Z
+	the body angular velocity were derived in time to obtain Jerk signals - Standard deviation - Z direction
+
+timeBodyAccelerationMagnitude-mean()
+	the magnitude of time body acceleration  - Mean value
+
+timeBodyAccelerationMagnitude-std()
+	the magnitude of time body acceleration  - Standard deviation
+
+timeGravityAccelerationMagnitude-mean()
+	the magnitude of time gravity acceleration  - Mean value
+
+timeGravityAccelerationMagnitude-std()
+	the magnitude of time gravity acceleration  - Standard deviation
+
+timeBodyAccelerationJerkMagnitude-mean()
+	the magnitude of Time body acceleration to obtain Jerk signals  - Mean value
+
+timeBodyAccelerationJerkMagnitude-std()
+	the magnitude of Time body acceleration to obtain Jerk signals
+
+timeBodyGyroscopeMagnitude-mean()
+	the magnitude of Time body gyroscope   - Mean value
+
+timeBodyGyroscopeMagnitude-std()
+	the magnitude of Time body gyroscope  - Standard deviation
+
+timeBodyGyroscopeJerkMagnitude-mean()
+	the magnitude of Time body gyroscope to obtain Jerk signals  - Mean value
+
+timeBodyGyroscopeJerkMagnitude-std()
+	the magnitude of Time body gyroscope to obtain Jerk signals
+
+frequencyBodyAcceleration-mean()-X
+	frequency Body Acceleration domain signals  - Mean value - X direction
+
+frequencyBodyAcceleration-mean()-Y
+	frequency Body Acceleration domain signals  - Mean value - Y direction
+
+frequencyBodyAcceleration-mean()-Z
+	frequency Body Acceleration domain signals  - Mean value - Z direction
+
+frequencyBodyAcceleration-std()-X
+	frequency Body Acceleration domain signals - Standard deviation - X direction
+
+frequencyBodyAcceleration-std()-Y
+	frequency Body Acceleration domain signals - Standard deviation - Y direction
+
+frequencyBodyAcceleration-std()-Z
+	frequency Body Acceleration domain signals - Standard deviation - Z direction
+
+frequencyBodyAccelerationJerk-mean()-X
+	frequency Body Acceleration to obtain Jerk signals   - Mean value - X direction
+
+frequencyBodyAccelerationJerk-mean()-Y
+	frequency Body Acceleration to obtain Jerk signals   - Mean value - Y direction
+
+frequencyBodyAccelerationJerk-mean()-Z
+	frequency Body Acceleration to obtain Jerk signals   - Mean value - Z direction
+
+frequencyBodyAccelerationJerk-std()-X
+	frequency Body Acceleration to obtain Jerk signals  - Standard deviation - X direction
+
+frequencyBodyAccelerationJerk-std()-Y
+	frequency Body Acceleration to obtain Jerk signals  - Standard deviation - Y direction
+
+frequencyBodyAccelerationJerk-std()-Z
+	frequency Body Acceleration to obtain Jerk signals  - Standard deviation - Z direction
+
+frequencyBodyGyroscope-mean()-X
+	frequency Body Gyroscope  - Mean value - X direction
+
+frequencyBodyGyroscope-mean()-Y
+	frequency Body Gyroscope  - Mean value - Y direction
+
+frequencyBodyGyroscope-mean()-Z
+	frequency Body Gyroscope  - Mean value - Z direction
+
+frequencyBodyGyroscope-std()-X
+	frequency Body Gyroscope - Standard deviation - X direction
+
+frequencyBodyGyroscope-std()-Y
+	frequency Body Gyroscope - Standard deviation - Y direction
+
+frequencyBodyGyroscope-std()-Z
+	frequency Body Gyroscope - Standard deviation - Z direction
+
+frequencyBodyAccelerationMagnitude-mean()
+	Magnitude of frequency Body Acceleration  - Mean value
+
+frequencyBodyAccelerationMagnitude-std()
+	Magnitude of frequency Body Acceleration  - Standard deviation
+
+fBodyBodyAccJerkMagnitude-mean()
+	Magnitude of frequency Body Acceleration to obtain Jerk signals   - Mean value
+
+fBodyBodyAccJerkMagnitude-std()
+	Magnitude of frequency Body Acceleration to obtain Jerk signals   - Standard deviation
+
+fBodyBodyGyroMagnitude-mean()
+	Magnitude of frequency Body Gyroscope  - Mean value
+
+fBodyBodyGyroMagnitude-std()
+	Magnitude of frequency Body Gyroscope  - Standard deviation
+
+fBodyBodyGyroJerkMagnitude-mean()
+	frequency Body Acceleration to obtain Jerk signals   - Mean value
+
+fBodyBodyGyroJerkMagnitude-std()
+	frequency Body Acceleration to obtain Jerk signals   - Standard deviation
+
