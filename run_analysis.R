@@ -16,6 +16,7 @@ x_train<-read.table("./UCI HAR Dataset/train/X_train.txt", header = FALSE)
 y_train<-read.table("./UCI HAR Dataset/train/y_train.txt", header = FALSE)
 subject_train<-read.table("./UCI HAR Dataset/train/subject_train.txt", header = FALSE)
 names(y_train)<-"activityId"
+names(subject_train)<-"subject"
 
 
 
@@ -23,7 +24,7 @@ x_test<-read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE)
 y_test<-read.table("./UCI HAR Dataset/test/y_test.txt", header = FALSE)
 subject_test<-read.table("./UCI HAR Dataset/test/subject_test.txt", header = FALSE)
 names(y_test)<-"activityId"
-
+names(subject_test)<-"subject"
 
 
 
@@ -74,7 +75,7 @@ combined<-combined[,-c(1)]
 #5.From the data set in step 4, creates a second, 
 #independent tidy data set with the average of each variable 
 #for each activity and each subject.
-tidy<-aggregate(. ~subject + activityId + activityName, combined, mean)
+tidy<-aggregate(. ~subject + activityName, combined, mean)
 tidy_ordered<-tidy[order(tidy$subject, tidy$activityName),]
 
 write.table(tidy_ordered, "tidy.txt", row.name=FALSE)
